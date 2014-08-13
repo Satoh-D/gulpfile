@@ -48,7 +48,7 @@ gulp.task('styles', function() {
 // Browser-sync & watch
 gulp.task('serve', function() {
   browserSync({
-    proxy: 'test.parco.jp/s/style140818/'
+    proxy: 'servername'
   });
 
   gulp.watch(['**/*.{php, html}'], reload);
