@@ -51,9 +51,8 @@ gulp.task('serve', function() {
     proxy: 'servername'
   });
 
-  gulp.watch(['**/*.{php, html}'], reload);
+  gulp.watch(['**/*.php'], reload);
   gulp.watch(['scss/*.scss'], ['styles', reload]);
-  gulp.watch(['images/**/*'], reload);
 });
 
 // デフォルトタスク

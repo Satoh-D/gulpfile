@@ -15,7 +15,6 @@
     "gulp-cache": "^0.2.0",
     "gulp-changed": "^0.4.1",
     "gulp-if": "^1.2.4",
-    "gulp-image": "^0.4.3",
     "gulp-imagemin": "^0.6.2",
     "gulp-load-plugins": "^0.5.3",
     "gulp-ruby-sass": "^0.7.1",
